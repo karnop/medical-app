@@ -1,10 +1,11 @@
 import React from 'react';
+import Hero from "@/components/frontend/hero";
 
 function Page() {
     return (
-        <div>
-
-        </div>
+        <section className={""}>
+            <Hero/>
+        </section>
     );
 }
 

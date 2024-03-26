@@ -3,7 +3,7 @@ import Navbar from "@/components/frontend/navbar";
 
 function Layout({children} : {children : ReactNode}) {
     return (
-        <div>
+        <div className={"bg-gray-100 "}>
             <Navbar/>
             {children}
         </div>
