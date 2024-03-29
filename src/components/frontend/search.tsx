@@ -2,9 +2,8 @@ import React from 'react';
 
 function Search() {
     return (
-        <div className={"mt-5 mx-auto"}>
 
-            <form className="max-w-md mx-auto">
+            <form className="max-w-md ">
                 <label htmlFor="default-search"
                        className="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
                 <div className="relative">
@@ -24,7 +23,6 @@ function Search() {
                 </div>
             </form>
 
-        </div>
     );
 }
 
