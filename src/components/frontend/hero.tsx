@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Search from "@/components/frontend/search";
 import TextTransitionn from "@/components/frontend/textTransition";
 
@@ -14,7 +13,7 @@ const Hero = () => {
                                     <span>Book your professional</span> <span><TextTransitionn/></span> <span> session now!</span>
                                 </h1>
                                 <p className="mb-8 max-w-[480px] text-black">
-                                    Health shouldn't be a puzzle! We are bringing you simple, affordable, and transparent healthcare.
+                                    Health shouldn&apos;t be a puzzle! We are bringing you simple, affordable, and transparent healthcare.
                                 </p>
 
                                 <Search/>
@@ -74,14 +73,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-const SingleImage = ({ href, imgSrc } : {href : string, imgSrc : string} ) => {
-    return (
-        <>
-            <a href={href} className="flex w-full items-center justify-center">
-                <img src={imgSrc} alt="brand image" className="h-10 w-full" />
-            </a>
-        </>
-    );
-};
-
